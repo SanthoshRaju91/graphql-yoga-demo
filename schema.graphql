@@ -1,0 +1,16 @@
+type User {
+    name: String!
+    age: String!
+    place: String!
+}
+
+type Place {
+    name: String!
+    lat: String!
+    lng: String!
+}
+
+type Query {
+    users: [User]!
+    places: [Place]!
+}
